@@ -2,7 +2,7 @@ package com.mhb.retrogamecataloguerapi.Domain.Price;
 
 public class Price {
 
-    private Integer price;
+    private final Integer price;
 
     public Price(Integer price) {
         this.price = price;
